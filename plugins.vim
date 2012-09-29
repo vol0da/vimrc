@@ -20,6 +20,8 @@ let g:ctrlp_dotfiles = 0
 let g:ctrlp_root_markers = ['.root_dir']
 let g:ctrlp_mruf_relative = 1
 
+let NERDTreeChDirMode=2
+
 function OpenPHPManual(keyword)
     exec '!' . 'open http://php.net/' . a:keyword
 endfunction
