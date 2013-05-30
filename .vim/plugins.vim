@@ -12,10 +12,6 @@ let g:delimitMate_balance_matchpairs = 1
 imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 
 
-" phpfolding {
-"    let g:DisableAutoPHPFolding = 0
-" }
-
 " Misc {
     let g:NERDShutUp=1
     let b:match_ignorecase = 1

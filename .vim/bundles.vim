@@ -21,7 +21,7 @@ Bundle '2072/PHP-Indenting-for-VIm'
 Bundle 'rking/ag.vim'
 Bundle 'SirVer/ultisnips'
 " Bundle 'ervandew/supertab'
-Bundle 'vim-scripts/phpfolding.vim'
+" Bundle 'vim-scripts/phpfolding.vim'
 
 " Bundle 'Lokaltog/powerline'
 " Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}

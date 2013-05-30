@@ -139,7 +139,5 @@ hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=da
 
 command DiffOrig let oft=&ft | vert new | exec 'set bt=nofile ft='.oft | r # | 0d_ | diffthis | wincmd p | diffthis
 
-" let g:DisableAutoPHPFolding = 1
-
 source ~/.vim/plugins.vim
 source ~/.vim/mappings.vim
