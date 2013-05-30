@@ -54,3 +54,5 @@ imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 "}
 
 let g:ycm_allow_changing_updatetime = 0
+
+let g:tagbar_phpctags_bin='~/bin/phpctags'

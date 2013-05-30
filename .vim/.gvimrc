@@ -9,7 +9,7 @@ set guioptions-=r
 set guioptions-=L
 
 set background=dark
-colorscheme solarized
+colorscheme phix
 
 set transp=0
 

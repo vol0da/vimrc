@@ -5,6 +5,8 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'stuartherbert/vim-phix-colors'
+
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'matchit.zip'
@@ -25,3 +27,5 @@ Bundle 'godlygeek/tabular'
 
 Bundle 'airblade/vim-gitgutter'
 Bundle 'Valloric/YouCompleteMe'
+
+Bundle 'techlivezheng/vim-plugin-tagbar-phpctags'
