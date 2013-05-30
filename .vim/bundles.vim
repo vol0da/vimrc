@@ -18,7 +18,7 @@ Bundle 'tobyS/pdv'
 Bundle 'sjl/gundo.vim'
 Bundle '2072/PHP-Indenting-for-VIm'
 
-Bundle 'mileszs/ack.vim'
+Bundle 'rking/ag.vim'"
 Bundle 'SirVer/ultisnips'
 " Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/phpfolding.vim'
