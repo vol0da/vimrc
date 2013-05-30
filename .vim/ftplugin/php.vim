@@ -10,28 +10,3 @@ let php_sync_method = -1
 
 " Map ; to "add ; to the end of the line, when missing"
 "noremap <buffer> ; :s/\([^;]\)$/\1;/<cr>
-
-
-" {{{ Automatic close char mapping
-" if g:PIVAutoClose
-    " if g:PIVPearStyle
-        " inoremap <buffer>  { {<CR>}<C-O>O
-        " inoremap <buffer> ( (  )<LEFT><LEFT>
-    " else
-        " inoremap  { {<CR>}<C-O>O
-        " inoremap ( ()<LEFT>
-    " endif
-" 
-    " inoremap <buffer> [ []<LEFT>
-    " inoremap <buffer> " ""<LEFT>
-    " inoremap <buffer> ' ''<LEFT>
-" endif
-" }}} Automatic close char mapping
-
-
-" {{{ Wrap visual selections with chars
-
-" vnoremap <buffer> ( "zdi(<C-R>z)<ESC>
-" vnoremap <buffer> { "zdi{<C-R>z}<ESC>
-" vnoremap <buffer> [ "zdi[<C-R>z]<ESC>
-" vnoremap <buffer> ' "zdi'<C-R>z'<ESC>

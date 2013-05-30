@@ -20,25 +20,8 @@ Bundle '2072/PHP-Indenting-for-VIm'
 
 Bundle 'rking/ag.vim'
 Bundle 'SirVer/ultisnips'
-" Bundle 'ervandew/supertab'
-" Bundle 'vim-scripts/phpfolding.vim'
-
-" Bundle 'Lokaltog/powerline'
-" Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
-" Bundle 'Lokaltog/vim-easymotion'
 
 Bundle 'godlygeek/tabular'
 
 Bundle 'airblade/vim-gitgutter'
 Bundle 'Valloric/YouCompleteMe'
-
-" Bundle 'leshill/vim-json'
-" Bundle 'pangloss/vim-javascript'
-" Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
-" Bundle 'tpope/vim-rails'
-" let g:rubycomplete_buffer_loading = 1
-" let g:rubycomplete_classes_in_global = 1
-" let g:rubycomplete_rails = 1
-" Bundle 'vim-scripts/sessionman.vim'
-" Bundle 'mattn/gist-vim'
-" Bundle 'amirh/HTML-AutoCloseTag'
