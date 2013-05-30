@@ -117,3 +117,6 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " I don't have patched font for now
 " let g:Powerline_symbols = 'fancy'
+"
+
+let g:ycm_allow_changing_updatetime = 0

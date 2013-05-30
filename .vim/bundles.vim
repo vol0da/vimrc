@@ -20,16 +20,17 @@ Bundle '2072/PHP-Indenting-for-VIm'
 
 Bundle 'mileszs/ack.vim'
 Bundle 'SirVer/ultisnips'
-Bundle 'ervandew/supertab'
+" Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/phpfolding.vim'
 
 " Bundle 'Lokaltog/powerline'
-Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
+" Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
+" Bundle 'Lokaltog/vim-easymotion'
 
-Bundle 'Lokaltog/vim-easymotion'
 Bundle 'godlygeek/tabular'
 
 Bundle 'airblade/vim-gitgutter'
+Bundle 'Valloric/YouCompleteMe'
 
 " Bundle 'leshill/vim-json'
 " Bundle 'pangloss/vim-javascript'
