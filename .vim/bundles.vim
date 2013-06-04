@@ -1,31 +1,32 @@
 Bundle 'gmarik/vundle'
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/syntastic'
-
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'stuartherbert/vim-phix-colors'
-
-Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
-Bundle 'matchit.zip'
-Bundle 'tpope/vim-fugitive'
-Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/nerdtree'
 
+Bundle 'sjl/gundo.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
 Bundle 'Raimondi/delimitMate'
+Bundle 'godlygeek/tabular'
+Bundle 'matchit.zip'
+Bundle 'rking/ag.vim'
+
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpope/vim-fugitive'
+
+Bundle 'scrooloose/syntastic'
+Bundle 'tomtom/tcomment_vim'
+
+Bundle 'SirVer/ultisnips'
+Bundle 'ervandew/supertab'
+
+Bundle 'majutsushi/tagbar'
+Bundle 'techlivezheng/vim-plugin-tagbar-phpctags'
+
 Bundle 'paulyg/Vim-PHP-Stuff'
 Bundle 'shawncplus/phpcomplete.vim'
 Bundle 'tobyS/pdv'
-Bundle 'sjl/gundo.vim'
 Bundle '2072/PHP-Indenting-for-VIm'
 
-Bundle 'rking/ag.vim'
-Bundle 'SirVer/ultisnips'
-
-Bundle 'godlygeek/tabular'
-
-Bundle 'airblade/vim-gitgutter'
-Bundle 'Valloric/YouCompleteMe'
-
-Bundle 'techlivezheng/vim-plugin-tagbar-phpctags'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'stuartherbert/vim-phix-colors'
