@@ -1,23 +1,4 @@
-let g:syntastic_auto_loc_list=1
-let g:syntastic_echo_current_error=0
-
-let g:solarized_termtrans=0
-let g:solarized_termcolors=256
-let g:solarized_contrast="normal"
-let g:solarized_visibility="normal"
-
-let g:delimitMate_expand_cr = 1
-let g:delimitMate_expand_space = 1
-let g:delimitMate_balance_matchpairs = 1
-imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
-
-
-" Misc {
-    let g:NERDShutUp=1
-    let b:match_ignorecase = 1
-" }
-
-"CtrlP {
+" CtrlP {
     " let g:ctrlp_map = '<d-t>'
     let g:ctrlp_match_window_bottom = 1
     let g:ctrlp_dotfiles = 0
@@ -34,6 +15,18 @@ imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
     map <Leader>b :CtrlPBuffer<CR>
 " }
 
+" DelimitMate {
+    let g:delimitMate_expand_cr = 1
+    let g:delimitMate_expand_space = 1
+    let g:delimitMate_balance_matchpairs = 1
+    imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
+" }
+
+" Misc {
+    let g:NERDShutUp=1
+    let b:match_ignorecase = 1
+" }
+
 " NerdTree {
     noremap <silent> <Leader>t :NERDTreeToggle<CR>
     noremap <silent> <Leader>r :NERDTreeFind<CR>
@@ -48,11 +41,22 @@ imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
     let g:nerdtree_tabs_open_on_gui_startup=0
 " }
 
+" Solarized scheme {
+    let g:solarized_termtrans=0
+    let g:solarized_termcolors=256
+    let g:solarized_contrast="normal"
+    let g:solarized_visibility="normal"
+" }
+
+" Syntastic {
+    let g:syntastic_auto_loc_list=1
+    let g:syntastic_echo_current_error=0
+" }
+
 " TagBar {
+    let g:tagbar_phpctags_bin='~/bin/phpctags'
     let g:tagbar_autofocus = 1
     nnoremap <silent> <leader>w :TagbarToggle<CR>
-"}
+" }
 
 let g:ycm_allow_changing_updatetime = 0
-
-let g:tagbar_phpctags_bin='~/bin/phpctags'
