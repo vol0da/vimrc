@@ -48,6 +48,8 @@
     let g:solarized_visibility="normal"
 " }
 
+let g:SuperTabDefaultCompletionType = "context"
+
 " Syntastic {
     let g:syntastic_auto_loc_list=1
     let g:syntastic_echo_current_error=0
@@ -60,3 +62,4 @@
 " }
 
 let g:ycm_allow_changing_updatetime = 0
+
