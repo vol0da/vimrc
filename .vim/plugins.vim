@@ -19,13 +19,13 @@ imap <expr><CR> pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 
 "CtrlP {
     " let g:ctrlp_map = '<d-t>'
-    let g:ctrlp_match_window_bottom = 0
+    let g:ctrlp_match_window_bottom = 1
     let g:ctrlp_dotfiles = 0
     let g:ctrlp_root_markers = ['.root_dir']
     let g:ctrlp_mruf_relative = 1
     let g:ctrlp_working_path_mode = '0'
     let g:ctrlp_buftag_types = {
-                \ 'php': '--PHP-kinds=+cf'
+                \ 'php': '--PHP-kinds=cf'
                 \ }
 
     map <Leader>e :CtrlPMRU<CR>
