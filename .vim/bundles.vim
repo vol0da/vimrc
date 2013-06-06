@@ -18,7 +18,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tomtom/tcomment_vim'
 
 Bundle 'SirVer/ultisnips'
-Bundle 'ervandew/supertab'
+" Bundle 'ervandew/supertab'
+Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'majutsushi/tagbar'
 Bundle 'techlivezheng/vim-plugin-tagbar-phpctags'
